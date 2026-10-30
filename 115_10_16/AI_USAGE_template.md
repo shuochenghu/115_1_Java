@@ -27,3 +27,5 @@
 ### 範例附圖
 
 ![AI 使用紀錄範例附圖](https://raw.githubusercontent.com/shuochenghu/115_1_Java_Tutorial/main/img/test.png)
+
+![蔡康永](https://raw.githubusercontent.com/shuochenghu/115_1_Java/main/images/licensed-image.jpg)
