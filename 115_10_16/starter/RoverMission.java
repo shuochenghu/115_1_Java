@@ -17,8 +17,13 @@ public class RoverMission {
             int command = input.nextInt();
             switch (command) {
                 case 1:
-                    // TODO D1：足夠能源才扣 6、加 2 份樣本並計次；不足只提示。
-                    System.out.println("TODO_EXPLORE");
+                    if (energy >= 6) {
+                        energy -= 6;
+                        samples += 2;
+                        actionCount++;
+                    } else {
+                        System.out.println("NOT_ENOUGH_ENERGY");
+                    }
                     break;
                 case 2:
                     // TODO D2：掃描成本 2、樣本加 1；只有成功行動才計次。
